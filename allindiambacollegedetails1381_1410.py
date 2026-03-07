@@ -38,13 +38,13 @@ BASE_URL = [
   "https://www.shiksha.com/college/rao-bahadur-y-mahabaleswarappa-engineering-college-rymec-karnataka-other-21509",
   "https://www.shiksha.com/college/siwan-engineering-and-technical-institute-seti-siwan-bihar-other-23761",
   "https://www.shiksha.com/college/bhabha-engineering-research-institute-bhopal-43330",
-  "https://www.shiksha.com/college/holy-mary-institute-of-technology-and-management-ranga-reddy-62345",
-  "https://www.shiksha.com/college/genesis-institute-of-management-and-technology-kasba-kolkata-62983",
-  "https://www.shiksha.com/college/lloyd-institute-of-management-and-technology-uttar-pradesh-other-148609",
-  "https://www.shiksha.com/college/akademia-school-of-business-studies-mulund-east-mumbai-155631",
-  "https://www.shiksha.com/college/skr-degree-and-pg-college-for-women-rajahmundry-37602",
-  "https://www.shiksha.com/college/jms-group-of-institutions-hapur-37965",
-  "https://www.shiksha.com/university/nlu-odisha-nluo-national-law-university-cuttack-44078",
+  # "https://www.shiksha.com/college/holy-mary-institute-of-technology-and-management-ranga-reddy-62345",
+  # "https://www.shiksha.com/college/genesis-institute-of-management-and-technology-kasba-kolkata-62983",
+  # "https://www.shiksha.com/college/lloyd-institute-of-management-and-technology-uttar-pradesh-other-148609",
+  # "https://www.shiksha.com/college/akademia-school-of-business-studies-mulund-east-mumbai-155631",
+  # "https://www.shiksha.com/college/skr-degree-and-pg-college-for-women-rajahmundry-37602",
+  # "https://www.shiksha.com/college/jms-group-of-institutions-hapur-37965",
+  # "https://www.shiksha.com/university/nlu-odisha-nluo-national-law-university-cuttack-44078",
 ]
 
 
