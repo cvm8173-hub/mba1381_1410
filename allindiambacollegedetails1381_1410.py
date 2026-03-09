@@ -15,36 +15,36 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/dr-v-r-godhania-college-of-engineering-and-technology-porbandar-60149",
-  "https://www.shiksha.com/college/vathsalya-college-of-business-management-banjara-hills-hyderabad-62303",
-  "https://www.shiksha.com/college/c-b-bhandari-jain-college-basavanagudi-bangalore-127927",
-  "https://www.shiksha.com/college/hindustan-business-school-marathahalli-bangalore-427",
-  "https://www.shiksha.com/college/kalpataru-institute-of-technology-kit-tiptur-tumkur-20415",
-  "https://www.shiksha.com/college/narayana-institute-of-management-anantapur-68737",
-  "https://www.shiksha.com/college/k-m-m-college-of-arts-and-science-kochi-72555",
-  "https://www.shiksha.com/college/scott-christian-college-nagercoil-75671",
-  "https://www.shiksha.com/college/goel-institute-of-higher-studies-luckhnow-lucknow-201913",
-  "https://www.shiksha.com/university/maharashtra-state-skills-university-mumbai-206197",
-  "https://www.shiksha.com/college/mother-teresa-institute-of-science-and-technology-khammam-20675",
-  "https://www.shiksha.com/college/disha-bharti-college-of-management-and-education-saharanpur-71467",
-  "https://www.shiksha.com/college/icri-nanavati-hospital-mumbai-vile-parle-west-203027",
-  "https://www.shiksha.com/college/pgp-college-of-engineering-pgpce-namakkal-22867",
-  "https://www.shiksha.com/college/north-india-institute-of-technology-niit-najibabad-uttar-pradesh-other-43324",
-  "https://www.shiksha.com/college/care-business-school-tiruchirappalli-64043",
-  "https://www.shiksha.com/university/karnataka-state-rural-development-and-panchayat-raj-university-gadag-64729",
-  "https://www.shiksha.com/college/shri-guru-sandipani-institute-of-management-ujjain-68613",
-  "https://www.shiksha.com/college/sanjivani-institute-of-management-studies-ahmednagar-215795",
-  "https://www.shiksha.com/university/maya-devi-university-uttarakhand-other-225271",
-  "https://www.shiksha.com/college/rao-bahadur-y-mahabaleswarappa-engineering-college-rymec-karnataka-other-21509",
-  "https://www.shiksha.com/college/siwan-engineering-and-technical-institute-seti-siwan-bihar-other-23761",
-  "https://www.shiksha.com/college/bhabha-engineering-research-institute-bhopal-43330",
-  # "https://www.shiksha.com/college/holy-mary-institute-of-technology-and-management-ranga-reddy-62345",
-  # "https://www.shiksha.com/college/genesis-institute-of-management-and-technology-kasba-kolkata-62983",
-  # "https://www.shiksha.com/college/lloyd-institute-of-management-and-technology-uttar-pradesh-other-148609",
-  # "https://www.shiksha.com/college/akademia-school-of-business-studies-mulund-east-mumbai-155631",
-  # "https://www.shiksha.com/college/skr-degree-and-pg-college-for-women-rajahmundry-37602",
-  # "https://www.shiksha.com/college/jms-group-of-institutions-hapur-37965",
-  # "https://www.shiksha.com/university/nlu-odisha-nluo-national-law-university-cuttack-44078",
+  # "https://www.shiksha.com/college/dr-v-r-godhania-college-of-engineering-and-technology-porbandar-60149",
+  # "https://www.shiksha.com/college/vathsalya-college-of-business-management-banjara-hills-hyderabad-62303",
+  # "https://www.shiksha.com/college/c-b-bhandari-jain-college-basavanagudi-bangalore-127927",
+  # "https://www.shiksha.com/college/hindustan-business-school-marathahalli-bangalore-427",
+  # "https://www.shiksha.com/college/kalpataru-institute-of-technology-kit-tiptur-tumkur-20415",
+  # "https://www.shiksha.com/college/narayana-institute-of-management-anantapur-68737",
+  # "https://www.shiksha.com/college/k-m-m-college-of-arts-and-science-kochi-72555",
+  # "https://www.shiksha.com/college/scott-christian-college-nagercoil-75671",
+  # "https://www.shiksha.com/college/goel-institute-of-higher-studies-luckhnow-lucknow-201913",
+  # "https://www.shiksha.com/university/maharashtra-state-skills-university-mumbai-206197",
+  # "https://www.shiksha.com/college/mother-teresa-institute-of-science-and-technology-khammam-20675",
+  # "https://www.shiksha.com/college/disha-bharti-college-of-management-and-education-saharanpur-71467",
+  # "https://www.shiksha.com/college/icri-nanavati-hospital-mumbai-vile-parle-west-203027",
+  # "https://www.shiksha.com/college/pgp-college-of-engineering-pgpce-namakkal-22867",
+  # "https://www.shiksha.com/college/north-india-institute-of-technology-niit-najibabad-uttar-pradesh-other-43324",
+  # "https://www.shiksha.com/college/care-business-school-tiruchirappalli-64043",
+  # "https://www.shiksha.com/university/karnataka-state-rural-development-and-panchayat-raj-university-gadag-64729",
+  # "https://www.shiksha.com/college/shri-guru-sandipani-institute-of-management-ujjain-68613",
+  # "https://www.shiksha.com/college/sanjivani-institute-of-management-studies-ahmednagar-215795",
+  # "https://www.shiksha.com/university/maya-devi-university-uttarakhand-other-225271",
+  # "https://www.shiksha.com/college/rao-bahadur-y-mahabaleswarappa-engineering-college-rymec-karnataka-other-21509",
+  # "https://www.shiksha.com/college/siwan-engineering-and-technical-institute-seti-siwan-bihar-other-23761",
+  # "https://www.shiksha.com/college/bhabha-engineering-research-institute-bhopal-43330",
+  "https://www.shiksha.com/college/holy-mary-institute-of-technology-and-management-ranga-reddy-62345",
+  "https://www.shiksha.com/college/genesis-institute-of-management-and-technology-kasba-kolkata-62983",
+  "https://www.shiksha.com/college/lloyd-institute-of-management-and-technology-uttar-pradesh-other-148609",
+  "https://www.shiksha.com/college/akademia-school-of-business-studies-mulund-east-mumbai-155631",
+  "https://www.shiksha.com/college/skr-degree-and-pg-college-for-women-rajahmundry-37602",
+  "https://www.shiksha.com/college/jms-group-of-institutions-hapur-37965",
+  "https://www.shiksha.com/university/nlu-odisha-nluo-national-law-university-cuttack-44078",
 ]
 
 
@@ -9254,7 +9254,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count =1381
+    c_count =1404
 
     try:
         for base_url in BASE_URL:
